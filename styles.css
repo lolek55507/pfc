@@ -1,0 +1,123 @@
+body {
+    background-image: url("bg.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: black;
+}
+.Back_To_Text {
+    color: white;
+    font-style: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all  ease-in   250ms;
+}
+.Back_To_Text:hover {
+    color: blueviolet;
+}
+.portfolio_Text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.projects_Container {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.project {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    border: 4px solid black;
+}
+.socials_Text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socials_Container {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 0, 126);
+    border-radius: 50%;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 4px wheat solid;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.projectButton {
+    position: absolute;
+    top: 20px;
+    font-size: xx-large;
+    background-color: rgb(136, 94, 15);
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 100ms ease-in;
+}
+.codeButton {
+    position: absolute;
+    top: 80px;
+    font-size: xx-large;
+    background-color: rgb(51, 35, 5);
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 100ms ease-in;
+}
+.descriptionButton {
+    position: absolute;
+    top: 140px;
+    font-size: xx-large;
+    background-color: rgb(1, 79, 82);
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 100ms ease-in;
+}
+.descriptionButton:hover {
+    transform: translateX(5%);
+    border: 2px solid black;
+}
+.codeButton:hover {
+    transform: translateX(5%);
+    border: 2px solid black;
+}
+.projectButton:hover {
+    transform: translateX(5%);
+    border: 2px solid black;
+}
+.noneStyle {
+    color: white;
+}

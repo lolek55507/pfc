@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+img {
+    width: 100%;
+    border: 2px black solid;
+    height: 400px;
+}
+a {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
